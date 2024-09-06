@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Authentication</title>
+  <link rel="stylesheet" href="user.css">
+</head>
+<body>
+  <header>
+    <h1>Closet Couture - User Authentication</h1>
+  </header>
+  
+  <main>
+    <div class="links">
+        <a href="index.html">home</a>
+        <a href="productDetail.html">products</a>
+        <a href="index.html">featured</a>
+        <a href="index.html">deal</a>
+        <a href="productDetail.html">review</a>
+        <a href="index.html">Contact</a>
+      </div>
+    <section class="auth-section">
+      <div class="form-container">
+        <h2>Register</h2>
+        <form id="register-form">
+          <label for="reg-username">Username:</label>
+          <input type="text" id="reg-username" name="username" required>
+          
+          <label for="reg-password">Password:</label>
+          <input type="password" id="reg-password" name="password" required>
+          
+          <button type="submit">Register</button>
+          <p id="register-message"></p>
+        </form>
+      </div>
+
+      <div class="form-container">
+        <h2>Login</h2>
+        <form id="login-form">
+          <label for="login-username">Username:</label>
+          <input type="text" id="login-username" name="username" required>
+          
+          <label for="login-password">Password:</label>
+          <input type="password" id="login-password" name="password" required>
+          
+          <button type="submit">Login</button>
+          <p id="login-message"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="user.js"></script>
+</body>
+</html>
